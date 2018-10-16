@@ -1,0 +1,61 @@
+﻿body {
+    background-color: hsla(172, 71%, 77%, 0.1);
+}
+.divTable{
+	display: table;
+	width: 50%;
+    margin: auto;
+    text-align:center;
+    font-size: 50px;
+    border: 3px solid black;
+    border-collapse:collapse;
+}
+.divTableRow {
+	display: table-row;
+    margin: 0px;
+    padding: 0px;
+}
+
+.divTableCell {
+	
+	display: table-cell;
+    vertical-align: middle;
+    height: 180px;
+    width: 180px;
+    border: 3px solid black;
+    border-collapse:collapse;
+}
+
+.divTableBody {
+	display: table-row-group;
+    margin: 0px;
+    padding: 0px;
+}
+
+.buttons {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    display: block;
+    background-color: hsla(172, 71%, 47%, 0.6);
+}
+
+header {
+    text-align: center;
+    font-family: Calibri;
+}
+
+section {
+    text-align: center;
+    font-family: Calibri;
+}
+
+.resetButton {
+    padding: 7px;
+    margin-left: 20px;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: large;
+    float: left;
+}
